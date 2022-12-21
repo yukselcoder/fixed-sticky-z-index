@@ -1,0 +1,28 @@
+.box {
+    width: 7rem;
+    height: 4rem;
+    border: 1px solid black;
+}
+.box1 {
+    background-color: brown;
+    position:absolute;
+    left: 50px;
+}
+.box2 {
+    background-color: aquamarine;
+position: absolute;
+left: 70px;
+top: 20px;
+z-index: 1;
+}
+.box3 {
+    background-color: blueviolet;
+    position: absolute;
+z-index: -1;}
+.box4{
+    background-color: blanchedalmond;
+    position: absolute;
+    left: 60px;
+    top: 35px;
+    z-index: 3;
+}
